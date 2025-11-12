@@ -1,0 +1,74 @@
+# ======================
+# macOS
+# ======================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ======================
+# PyCharm / JetBrains IDEs
+# ======================
+.idea/
+*.iml
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ======================
+# Data files
+# ======================
+# Raw and processed data may be large, so ignore unless manually included
+data/raw/*
+data/processed/*
+
+# Keep a placeholder in these directories
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ======================
+# Results
+# ======================
+results/*.csv
+results/plots/*
+!results/plots/.gitkeep
+
+# ======================
+# System
+# ======================
+*.bak
+*.old
+*.orig
+
+# ======================
+# Cache / compiled / build files
+# ======================
+.cache/
+build/
+dist/
+*.egg-info/
